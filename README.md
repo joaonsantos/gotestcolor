@@ -5,7 +5,8 @@ Bring some color to `go test`.
 
 
 Inspired by <https://github.com/rakyll/gotest> and <https://github.com/kyoh86/richgo>.
-Please check these out for a more complete solution.
+
+Please check the above, for a more complete solution.
 
 ## Installation
 
@@ -26,4 +27,4 @@ Example:
 ```
 $ gotestcolor -v -count=1 ./...
 ```
-![gotestcolor output example](https://raw.githubusercontent.com/joaonsantos/gotestcolor/assets/gotestcolor-demo.png)
+![gotestcolor output example](https://github.com/joaonsantos/gotestcolor/blob/main/assets/gotestcolor-demo.png?raw=true)
