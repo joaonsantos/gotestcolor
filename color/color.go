@@ -7,10 +7,7 @@ type Code int
 
 const (
 	Reset Code = 0
-)
-
-const (
-	Black = iota + 30
+	Black Code = iota + 30
 	Red
 	Green
 	Yellow
