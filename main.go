@@ -34,9 +34,9 @@ func parse(r io.Reader) {
 		line := scanner.Text()
 		line = strings.TrimSpace(line)
 		switch {
-		case strings.HasPrefix(line, "--- FAIL") || strings.HasPrefix(line, "FAIL "):
+		case strings.HasPrefix(line, "--- FAIL") || strings.HasPrefix(line, "FAIL"):
 			color.Colorize(color.Red, "%v\n", line)
-		case strings.HasPrefix(line, "--- SKIP"):
+		case strings.HasPrefix(line, "--- SKIP") || strings.HasPrefix(line, "SKIP"):
 			color.Colorize(color.Yellow, "%v\n", line)
 		case strings.HasPrefix(line, "PASS") || strings.HasPrefix(line, "ok "):
 			color.Colorize(color.Green, "%v\n", line)
